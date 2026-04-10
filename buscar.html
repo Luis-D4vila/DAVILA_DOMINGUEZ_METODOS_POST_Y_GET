@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="search-container">
+    <h2>Buscador de Temas PHP</h2>
+    <form action="resultado.php" method="GET">
+      <label for="datoBusqueda">¿ingrese lo que desea buscar?</label>
+      <input type="text" id="datoBusqueda" name="datoBusqueda" required>
+
+      <label for="tipoBusqueda">Tipo:</label>
+      <select id="tipoBusqueda" name="tipoBusqueda">
+        <option value="funcion">Definicion</option>
+        <option value="concepto">Concepto</option>
+      </select>
+
+      <button type="submit">Buscar</button>
+    </form>
+  </div>
+</body>
+</html>
