@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+
+    <div class="form-box">
+    <h2>Formulario de Registro</h2>
+    <form action="recepcion.php" method="POST">
+      <label for="datoNombre">Nombre:</label>
+      <input type="text" id="datoNombre" name="datoNombre" required>
+
+      <label for="datoApellido">Apellido:</label>
+      <input type="text" id="datoApellido" name="datoApellido" required>
+
+      <label for="datoEdad">Edad:</label>
+      <input type="number" id="datoEdad" name="datoEdad" min="1" required>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+    
+</body>
+</html>
